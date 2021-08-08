@@ -18,8 +18,14 @@ export const Navbar = () => {
     }
 
     return (
-        <nav className="navbar navbar-expand-sm navbar-dark bg-secondary sticky-top">
-            
+        
+
+        
+        <nav className="navbar navbar-expand-lg navbar-dark bg-secondary sticky-top">
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span className="navbar-toggler-icon"></span>
+  </button>
+  <div className='collapse navbar-collapse' id='navbarTogglerDemo01'>
             <Link 
                 className="navbar-brand" 
                 to="/"
@@ -59,7 +65,7 @@ export const Navbar = () => {
                 </div>
             </div>
 
-            <div className="navbar-collapse collapse w-100 order-3 dual-collapse2">
+            <div>
                 <ul className="navbar-nav ml-auto">
 
                     <span className="nav-item nav-link text-warning">
@@ -75,6 +81,8 @@ export const Navbar = () => {
                     </button>
                 </ul>
             </div>
+            </div>
         </nav>
+        
     )
 }

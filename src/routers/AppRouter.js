@@ -17,7 +17,7 @@ export const AppRouter = () => {
     return (
 
         <Router>
-            <div className='bg-dark'>
+            <div>
                 <Switch>
                     <PublicRoute
                         exact

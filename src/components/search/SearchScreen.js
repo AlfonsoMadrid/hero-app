@@ -25,11 +25,11 @@ export const SearchScreen = ({history}) => {
     }
 
     return (
-        <div>
-            <h1 className='text-light display-4'>Search Screen</h1>
+        <div className='p-2' style={{backgroundColor: 'rgba(0, 0, 0, 0.5)'}}>
+            <h1 className='text-light display-4 p-2 mt-2'>Search Screen</h1>
             <hr />
             <div className='row'>
-                <div className='col-5 mb-5'>
+                <div className='col-md-5 mb-5'>
                     <h4 className='text-light'>Search Form</h4>
                     <form onSubmit={handleSearch}>
                         <input
@@ -49,7 +49,7 @@ export const SearchScreen = ({history}) => {
                         </button>
                     </form>
                 </div>
-                <div className='col-7 mb-5'>
+                <div className='col-md-7 mb-5'>
                     <h4 className='text-light'>Results</h4>
 
                     {
