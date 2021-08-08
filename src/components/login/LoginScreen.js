@@ -2,7 +2,6 @@ import React, { useContext, useState } from 'react'
 import { AuthContext } from '../../auth/AuthContext';
 import { types } from '../../types/types';
 
-import './login.css'
 
 
 export const LoginScreen = ({ history }) => {
@@ -32,7 +31,7 @@ export const LoginScreen = ({ history }) => {
 
 
     return (
-        <div className='mx-3 h-100 login card-body '>
+        <div className='mx-3 h-100 card-body' style={{backgroundColor: 'rgba(0, 0, 0, 0.5)'}}>
             <div className='container-fluid '>
                 <div className='row justify-content-center align-items-center'>
                     <img src='https://tentulogo.com/wp-content/uploads/2018/12/logo-marvel-comics-de-los-90.jpg'
