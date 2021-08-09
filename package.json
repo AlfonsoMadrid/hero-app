@@ -1,5 +1,7 @@
 {
   "homepage": "https://alfonsomadrid.github.io/hero-app",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
   "name": "heroes-app",
   "version": "0.1.0",
   "private": true,
